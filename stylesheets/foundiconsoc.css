@@ -18,9 +18,10 @@
   background-image: none;
   background-position: 0 0;
   background-repeat: repeat;
+  color: #2ba6cb;
 }
 
-/* line 46, ../sass/foundiconsoc.scss */
+/* line 47, ../sass/foundiconsoc.scss */
 [class*="foundiconsoc-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;

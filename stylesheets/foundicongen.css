@@ -18,9 +18,10 @@
   background-image: none;
   background-position: 0 0;
   background-repeat: repeat;
+  color: green;
 }
 
-/* line 44, ../sass/foundicongen.scss */
+/* line 45, ../sass/foundicongen.scss */
 [class*="foundicongen-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: normal;

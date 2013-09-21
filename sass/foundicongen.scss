@@ -40,6 +40,7 @@ $classPrefix: "foundicongen-";
   background-image: none;
   background-position: 0 0;
   background-repeat: repeat;
+  color: green;
 }
 [class*="#{$classPrefix}"]:before {
   font-family: $fontName;
