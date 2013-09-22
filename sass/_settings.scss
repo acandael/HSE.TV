@@ -318,6 +318,7 @@ $default-float: left;
 // We use these to style the prefix and postfix input elements
 
 // $input-prefix-bg: darken(#fff, 5%);
+$input-prefix-bg: darken($primary-color, 5%);
 // $input-prefix-border-color: darken(#fff, 20%);
 // $input-prefix-border-size: 1px;
 // $input-prefix-border-type: solid;

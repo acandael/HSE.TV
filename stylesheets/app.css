@@ -2804,10 +2804,10 @@ label small {
 /* Separate prefix and postfix styles when on span or label so buttons keep their own */
 /* line 288, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 span.prefix, label.prefix {
-  background: #f2f2f2;
-  border-color: #d9d9d9;
+  background: #2795b6;
+  border-color: #1e728c;
   border-right: none;
-  color: #333333;
+  color: white;
 }
 /* line 289, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 span.prefix.radius, label.prefix.radius {
@@ -2823,10 +2823,10 @@ span.prefix.radius, label.prefix.radius {
 
 /* line 291, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 span.postfix, label.postfix {
-  background: #f2f2f2;
-  border-color: #cccccc;
+  background: #2795b6;
+  border-color: #196177;
   border-left: none;
-  color: #333333;
+  color: white;
 }
 /* line 292, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 span.postfix.radius, label.postfix.radius {
