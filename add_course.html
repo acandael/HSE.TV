@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -73,45 +72,47 @@
     </section>
   </nav>
 
-  <div class="row">
-    <div class="large-12 columns callout panel">
-      <div class="large-5 columns">
-        <br />
-        <h3 class="subheader">HSE.TV provides you with the ideal preparation to your VCA Exam</h3>
-        <p>Watch at your own pace our instructional videos and test your knowledge by taking a quiz that accompagnies each video lesson.</p>
-        <p>Our video lessons are given by active HSE-experts.</p>
-        <br /><br />
-        <a class="button large success" src="#">Sign Up</a>
+  <form class="custom">
+    <div class="row">
+      <h1>Add a course</h1>
+      <div class="row">
+        <div class="large-3 columns">
+          <label for="title" class="prefix">Course Title: </label>
+        </div>
+        <div class="large-6 columns">
+          <input type="text" id="title">
+        </div>
+        <div class="large-3 columns"></div>
       </div>
-      <div class="large-7 columns">
-        <br />
-        <div class="flex-video">
-          <iframe width="420" height="315" src="http://www.youtube.com/embed/0_EW8aNgKlA" frameborder="0" allowfullscreen></iframe>
+      <div class="row">
+        <div class="large-3 columns">
+          <label for="title" class="prefix">Description: </label>
+        </div>
+        <div class="large-6 columns">
+          <textarea placeholder="Enter a small description for this course"></textarea>
+        </div>
+        <div class="large-3 columns"></div>
+      </div>
+      <div class="row">
+        <div class="large-3 columns">
+          <label for="modules" class="prefix">Modules: </label>
+        </div>
+        <div class="large-9 columns">
+          <label for="checkbox1"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span>&nbsp;Wetgeving, gezondheid, milieu</label>
+          <label for="checkbox2"><input type="checkbox" id="checkbox2" style="display: none;"><span class="custom checkbox checked"></span>&nbsp;Toezicht op welzijn op het werk</label>
+          <label for="checkbox3"><input type="checkbox" id="checkbox3" style="display: none;"><span class="custom checkbox checked"></span>&nbsp;Inspectieprocedures</label>
+          <label for="checkbox4"><input type="checkbox" id="checkbox3" style="display: none;"><span class="custom checkbox checked"></span>&nbsp;Organisatie van Veiligheid Bescherming en Bescherming</label>
+          <label for="checkbox5"><input type="checkbox" id="checkbox3" style="display: none;"><span class="custom checkbox checked"></span>&nbsp;De arbeidsinspectie</label>
+          <label for="checkbox6"><input type="checkbox" id="checkbox3" style="display: none;"><span class="custom checkbox checked"></span>&nbsp;Samenwerking tussen werkgever, opdrachtgever en onderaannemer</label>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="large-12 columns panel">
-      <div class="large-4 columns">
-        <h3>Learn from the HSE-Experts</h3>
-        <p>Youl'll get trained by HSE-experts, active in the field</p>
-        <p>These experts know the VCA-exam through an through and can point out pitfalls and common mistakes</p>
-      </div>
-      <div class="large-4 columns">
-        <h3>Flexible learning</h3>
-        <p>Our videos are structured in short chunks that are easy to digress.</p>
-        <p>You can watch at your own pace from any device (smarthpone, tablet, laptop, ...)</p>
-      </div>
-      <div class="large-4 columns">
-        <h3>Affordable</h3>
-        <p>HSE.TV is tailor made for enterprises that need to train their employees fast and in an affordable manner</p>
-        <p>With our bronze, silver and gold licenses, you can subscribe as many employees as you like at very affordable prices.</p>
+    <div class="row">
+      <div class="large-6 columns">
+        <a href="#" class="button success">Add Course</a>
       </div>
     </div>
-  </div>
-
+  </form>
   <footer class="row">
     <div class="large-12 columns">
       <hr />
