@@ -72,34 +72,41 @@
     </section>
   </nav>
 
-  <form class="custom">
-    <div class="row">
-      <h1>Add a course</h1>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Course Title: </label>
-        </div>
-        <div class="large-6 columns">
-          <input type="text" id="title">
-        </div>
-        <div class="large-3 columns"></div>
-      </div>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Description: </label>
-        </div>
-        <div class="large-6 columns">
-          <textarea placeholder="Enter a small description for this course"></textarea>
-        </div>
-        <div class="large-3 columns"></div>
-      </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Course 1: VCA Exam Preparation</h3>
+      <p>This course is a preparation for the VCA Exam</p>
+      <h4 class="subheader">Modules</h4>
+      <a class="button success" href="add_module.html">Add Module</a>
+      <table class="large-12 columns">
+        <tr>
+          <td>Id</td>
+          <td>Module Title</td>
+          <td>Videos</td>
+          <td>Edit Module</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Wetgeving: Gezondheid, Veiligheid, Milieu</td>
+          <td><a href="module_edit_videos.html">Edit Videos</a></td>
+          <td><a href="#">Edit</a>&nbsp;&nbsp; <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>HSE Hazards: Risk &amp; Prevention</td>
+          <td><a href="module_edit_videos.html">Edit Videos</a></td>
+          <td><a href="#">Edit</a>&nbsp;&nbsp; <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>VCA Law: Basic Concepts</td>
+          <td><a href="module_edit_videos.html">Edit Videos</a></td>
+          <td><a href="#">Edit</a>&nbsp;&nbsp; <a href="#">Delete</a></td>
+        </tr>
+      </table>
     </div>
-    <div class="row">
-      <div class="large-6 columns">
-        <a href="#" class="button success">Add Course</a>
-      </div>
-    </div>
-  </form>
+  </div>
+
   <footer class="row">
     <div class="large-12 columns">
       <hr />
