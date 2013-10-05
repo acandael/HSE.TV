@@ -74,98 +74,105 @@
   <div class="row">
     <ul class="breadcrumbs">
       <li><a href="#">Home</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li class="current"><a href="#">Add Course</a></li>
+      <li><a href="module_edit_videos.html">Module 1</a></li>
+      <li class="unavailable"><a href="#">Video 1</a></li>
+      <li class="current"><a href="#">Edit</a></li>
     </ul>
   </div>
   <form class="custom">
     <div class="row">
-      <h1>Add a course</h1>
+      <h3 class="subheader">Edit video 1: Introduction</h3>
       <div class="row">
         <div class="large-3 columns">
-          <label for="title" class="prefix">Course Title: </label>
+          <label for="title" class="prefix">Video Title: </label>
         </div>
         <div class="large-6 columns">
-          <input type="text" id="title">
+          <input type="text" id="title" value="Wetgeving: veiligheid, gezondheid en milieu">
         </div>
         <div class="large-3 columns"></div>
       </div>
       <div class="row">
         <div class="large-3 columns">
-          <label for="title" class="prefix">Description: </label>
+          <label for="badgeupload" class="prefix">Badge Image</label>
         </div>
-        <div class="large-6 columns">
-          <textarea placeholder="Enter a small description for this course"></textarea>
+        <div class="large-4 columns">
+          <div class="flex-video">
+            <iframe width="420" height="315" src="http://www.youtube.com/embed/0_EW8aNgKlA" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="large-3 columns"></div>
+        <div class="large-5 columns">
+          <input type="file" id="videoupload">
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="large-6 columns">
-        <a href="#" class="button success">Add Course</a>
+      <div class="row">
+        <div class="large-12 columns">
+          <br />
+        </div>
       </div>
-    </div>
-  </form>
-
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
       <div class="row">
         <div class="large-6 columns">
-          <p>&copy;Safetatwork 2013 Contact</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li>Sign Up</li>
-            <li>Course</li>
-            <li>Support</li>
-          </ul>
+          <input type="submit" class="button success" value="Update Video">
         </div>
       </div>
-    </div>
-  </footer>
-  <script>
+    </form>
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr />
+        <div class="row">
+          <div class="large-6 columns">
+            <p>&copy;Safetatwork 2013 Contact</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li>Sign Up</li>
+              <li>Course</li>
+              <li>Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
 document.write('<script src=' +
                ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
                '.js><\/script>')
-  </script>
+    </script>
 
-  <script src="javascripts/foundation/foundation.js"></script>
+    <script src="javascripts/foundation/foundation.js"></script>
 
-  <script src="javascripts/foundation/foundation.abide.js"></script>
+    <script src="javascripts/foundation/foundation.abide.js"></script>
 
-  <script src="javascripts/foundation/foundation.alerts.js"></script>
+    <script src="javascripts/foundation/foundation.alerts.js"></script>
 
-  <script src="javascripts/foundation/foundation.clearing.js"></script>
+    <script src="javascripts/foundation/foundation.clearing.js"></script>
 
-  <script src="javascripts/foundation/foundation.cookie.js"></script>
+    <script src="javascripts/foundation/foundation.cookie.js"></script>
 
-  <script src="javascripts/foundation/foundation.dropdown.js"></script>
+    <script src="javascripts/foundation/foundation.dropdown.js"></script>
 
-  <script src="javascripts/foundation/foundation.forms.js"></script>
+    <script src="javascripts/foundation/foundation.forms.js"></script>
 
-  <script src="javascripts/foundation/foundation.interchange.js"></script>
+    <script src="javascripts/foundation/foundation.interchange.js"></script>
 
-  <script src="javascripts/foundation/foundation.joyride.js"></script>
+    <script src="javascripts/foundation/foundation.joyride.js"></script>
 
-  <script src="javascripts/foundation/foundation.magellan.js"></script>
+    <script src="javascripts/foundation/foundation.magellan.js"></script>
 
-  <script src="javascripts/foundation/foundation.orbit.js"></script>
+    <script src="javascripts/foundation/foundation.orbit.js"></script>
 
-  <script src="javascripts/foundation/foundation.placeholder.js"></script>
+    <script src="javascripts/foundation/foundation.placeholder.js"></script>
 
-  <script src="javascripts/foundation/foundation.reveal.js"></script>
+    <script src="javascripts/foundation/foundation.reveal.js"></script>
 
-  <script src="javascripts/foundation/foundation.section.js"></script>
+    <script src="javascripts/foundation/foundation.section.js"></script>
 
-  <script src="javascripts/foundation/foundation.tooltips.js"></script>
+    <script src="javascripts/foundation/foundation.tooltips.js"></script>
 
-  <script src="javascripts/foundation/foundation.topbar.js"></script>
+    <script src="javascripts/foundation/foundation.topbar.js"></script>
 
 
-  <script>
+    <script>
 $(document).foundation();
-  </script>
-  </body>
-  </html>
-
+    </script>
+    </body>
+    </html>
