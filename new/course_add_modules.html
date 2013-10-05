@@ -8,7 +8,7 @@
 <title>Foundation 4</title>
 
 
-<link rel="stylesheet" href="stylesheets/app.css">
+<link rel="stylesheet" href="../stylesheets/app.css">
 
 
 <script src="javascripts/vendor/custom.modernizr.js"></script>
@@ -75,38 +75,66 @@
     <ul class="breadcrumbs">
       <li><a href="#">Home</a></li>
       <li><a href="courses.html">Courses</a></li>
-      <li class="unavailable"><a href="#">Course 1</a></li>
-      <li class="current"><a href="#">Edit</a></li>
+      <li><a href="course.html">Course 1</a></li>
+      <li class="current"><a href="#">Add Modules</a></li>
     </ul>
   </div>
-  <form class="custom">
-    <div class="row">
-      <h3>Edit course 1: VCA Exam Preparation</h3>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Course Title: </label>
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Course 1: VCA Preparation Exams</h3>
+      <p>Select modules to add to this course</p>
+      <h4 class="subheader">Modules</h4>
+      <a class="button success" href="videos.html">Add Modules</a>
+      <form class="custom">
+        <div class="row">
+          <div class="large-10 columns">
+            <label for="module1"><input type="checkbox" id="module1" style="display: none;"><span class="custom checkbox"></span>&nbsp;&nbsp;<a href="#">VCA Law: Basic Introduction</a> (4mins - 39secs)</label>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <input type="text" id="title" value="VCA Exam Preparation">
+        <div class="row">
+          <div class="large-10 columns">
+            <br />
+          </div>
         </div>
-        <div class="large-3 columns"></div>
-      </div>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Description: </label>
+        <div class="row">
+          <div class="large-10 columns">
+            <label for="module2"><input type="checkbox" id="module2" style="display: none;"><span class="custom checkbox"></span>&nbsp;&nbsp;<a href="#">Wetgeving: Veilgheid, gezondheid en milieu</a> (4mins - 39secs)</label>
+          </div>
+          <div class="row">
+            <div class="large-10 columns">
+              <br />
+            </div>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <textarea placeholder="Preparation for the VCA Exam"></textarea>
+        <div class="row">
+          <div class="large-10 columns">
+            <label for="modle3"><input type="checkbox" id="module" style="display: none;"><span class="custom checkbox"></span>&nbsp;&nbsp;<a href="#">Beroep doen op interimarbeid</a> (4mins - 39secs)</label>
+          </div>
         </div>
-        <div class="large-3 columns"></div>
-      </div>
+        <div class="row">
+          <div class="large-10 columns">
+            <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-10 columns">
+            <label for="module4"><input type="checkbox" id="module4" style="display: none;"><span class="custom checkbox"></span>&nbsp;&nbsp;<a href="#">Medisch onderzoek</a> (4mins - 39secs)</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-10 columns">
+            <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-10 columns">
+            <label for="module5"><input type="checkbox" id="module5" style="display: none;"><span class="custom checkbox"></span>&nbsp;&nbsp;<a href="#">KB op mobiele of tijdelijke werkplaatsen</a> (4mins - 39secs)</label>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="row">
-      <div class="large-12 columns">
-        <a href="#" class="button success">Update Course</a>
-      </div>
-    </div>
-  </form>
+  </div>
+
   <footer class="row">
     <div class="large-12 columns">
       <hr />

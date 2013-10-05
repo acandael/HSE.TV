@@ -8,7 +8,7 @@
 <title>Foundation 4</title>
 
 
-<link rel="stylesheet" href="stylesheets/app.css">
+<link rel="stylesheet" href="../stylesheets/app.css">
 
 
 <script src="javascripts/vendor/custom.modernizr.js"></script>
@@ -74,39 +74,32 @@
   <div class="row">
     <ul class="breadcrumbs">
       <li><a href="#">Home</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li class="unavailable"><a href="#">Course 1</a></li>
-      <li class="current"><a href="#">Edit</a></li>
+      <li class="current"><a href="courses.html">Courses</a></li>
     </ul>
   </div>
-  <form class="custom">
-    <div class="row">
-      <h3>Edit course 1: VCA Exam Preparation</h3>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Course Title: </label>
-        </div>
-        <div class="large-6 columns">
-          <input type="text" id="title" value="VCA Exam Preparation">
-        </div>
-        <div class="large-3 columns"></div>
-      </div>
-      <div class="row">
-        <div class="large-3 columns">
-          <label for="title" class="prefix">Description: </label>
-        </div>
-        <div class="large-6 columns">
-          <textarea placeholder="Preparation for the VCA Exam"></textarea>
-        </div>
-        <div class="large-3 columns"></div>
-      </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Courses</h3>
+      <div class="large-9 columns">
+        <table class="large-12 columns">
+          <tr>
+            <td>Id</td>
+            <td>Course Title</td>
+            <td>Edit</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>VCA Exam Preparation</td>
+            <td><a href="edit_course.html">Edit</a>&nbsp;&nbsp; <a href="#">Delete</a></td>
+          </tr>
+        </table>
     </div>
-    <div class="row">
-      <div class="large-12 columns">
-        <a href="#" class="button success">Update Course</a>
-      </div>
+    <div class="large-3 columns">
+      <a class="button success" href="course_add.html">Add Course</a>
     </div>
-  </form>
+    </div>
+  </div>
+
   <footer class="row">
     <div class="large-12 columns">
       <hr />
